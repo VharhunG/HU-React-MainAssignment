@@ -1,0 +1,202 @@
+.all-courses {
+  background: none;
+  border: none;
+  float: left;
+  font: normal normal 300 20px/24px Montserrat;
+}
+.empty {
+  width: 6px;
+  height: 12px;
+  opacity: 1;
+  margin-top: 48px;
+}
+.course-name {
+  margin-top: 45px;
+  margin-left: 40px;
+  width: 284px;
+  height: 20px;
+  text-align: left;
+  font: normal normal 400 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #0f1317;
+  opacity: 1;
+}
+.course-detail-banner {
+  padding-top: 34px;
+  width: 100vw;
+  height: 283px;
+  background: #0f1317 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  color: white;
+  text-align: left;
+  position: relative;
+  left: -6%;
+  padding-left: 110px;
+}
+.video-comp {
+  background-color: black;
+  width: 674px;
+  height: 332px;
+  position: relative;
+  left: 938px;
+  bottom: 200px;
+  border: 1px solid #e0e0e0;
+}
+.course-detail-comp {
+  width: 875px;
+  height: 372px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e0e0e0;
+  opacity: 1;
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 880px;
+  position: relative;
+  bottom: 330px;
+}
+.course-heading {
+  width: 144px;
+  height: 22px;
+  text-align: left;
+  font: normal normal 600 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #4e4e4e;
+  opacity: 1;
+}
+.course-paragraph {
+  height: 44px;
+  text-align: left;
+  font: normal normal 300 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.selected-course-name {
+  width: 795px;
+  height: 58px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 600 24px/29px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.course-bottom-buttons {
+  left: 940px;
+  position: relative;
+  bottom: 608px;
+  width: 613px;
+  height: 217px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e0e0e0;
+  opacity: 1;
+  padding: 30px;
+}
+.price-text {
+  width: 106px;
+  height: 24px;
+  text-align: left;
+  font: normal normal bold 25px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  width: 200px;
+  max-width: 200px;
+}
+.add-to-cartbtn {
+  height: 40px;
+  width: 40%;
+  margin-right: 20px;
+  background: #ff6738 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  border: none;
+}
+.add-to-wishlist {
+  height: 40px;
+  width: 40%;
+  background: #ff6738 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  border: none;
+}
+.btns {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  left: -3%;
+}
+.course-desc {
+  width: 702px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 300 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.course-auth {
+  width: 288px;
+  height: 19px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 300 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #ff9271;
+  opacity: 1;
+  margin-top: 40px;
+}
+.course-tag {
+  width: 400px;
+  height: 40px;
+  margin-top: 40px;
+  display: flex;
+}
+.tag-span {
+  width: 120px;
+  height: 25px;
+  font: normal normal 400 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  background: transparent url(../../../public/images/Rectangle\ 19@2x.png) 0% 0%
+    no-repeat padding-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.clock-comp {
+  width: 25px;
+  height: 25px;
+  background: transparent url("../../logo/clock.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.discount-time {
+  background: transparent
+    url("../../../public/images/8\ hours\ left\ for\ this\ price.png") 0% 0%
+    no-repeat padding-box;
+  width: 242px;
+  height: 24px;
+  opacity: 1;
+  margin-left: 10px;
+}
+.play-video-symbol {
+  background: transparent url("../../../public/images/video-play-3-64.png") 0%
+    0% no-repeat padding-box;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  top: 45%;
+  left: 45%;
+}
+
+.add-to-cartbtn:hover,
+.add-to-wishlist {
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.nav-bar {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  /* UI Properties */
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.main-logo {
+  object-fit: contain;
+  width: 128px;
+  height: 41px;
+  background: transparent url("../../../../public/images/Logo-2.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+  left: 7%;
+  top: 12%;
+}
+.courses-btn {
+  background: none;
+  border: none;
+  outline: none;
+  text-align: left;
+  font: normal normal normal 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+}
+.courses-btn:hover,
+.wish-list-btn {
+  cursor: pointer;
+}
+.wish-list-btn {
+  text-align: left;
+  font: normal normal 400 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  background: none;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,31 @@
+.dd-header {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.dd-header-btn {
+  width: 182px;
+  height: 40px;
+  opacity: 1;
+  background: none;
+  border: 1px solid #909090;
+  border-radius: 5px;
+  font: normal normal 600 16px/19px Montserrat;
+}
+.dd-header-btn:hover {
+  cursor: pointer;
+}
+.dd-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.dd-list-item {
+  border-radius: 5px;
+  background: none;
+  border: 1px solid grey;
+  width: 175px;
+  margin-right: 7px;
+}
+.dd-list-item:hover {
+  cursor: pointer;
+}

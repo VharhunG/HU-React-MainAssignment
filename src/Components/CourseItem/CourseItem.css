@@ -1,0 +1,110 @@
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid grey;
+  padding-left: 12px;
+  align-items: center;
+}
+
+.item-image {
+  width: 79px;
+  height: 70px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.course-image {
+  top: 298px;
+  left: 159px;
+  width: 79px;
+  height: 70px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.course-tags {
+  display: flex;
+}
+.tag {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff6738;
+  width: 100px;
+  height: 20px;
+  margin-right: 13px;
+  align-items: center;
+}
+.item-details {
+  max-width: 250px;
+  margin-left: 10px;
+  flex-direction: column;
+  text-align: left;
+  width: 250px;
+}
+.author {
+  width: 100px;
+  text-align: left;
+  font: normal normal 300 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  max-width: 100px;
+}
+.grey-star {
+  width: 26px;
+  height: 25px;
+  background: transparent url("../../../public/images/grey\ star.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.grey-star:hover {
+  cursor: pointer;
+}
+.gold-star {
+  width: 26px;
+  height: 25px;
+  background: transparent url("../../../public/images/Path\ 28.svg") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.price {
+  width: 106px;
+  height: 24px;
+  text-align: left;
+  font: normal normal bold 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+  width: 100px;
+  max-width: 100px;
+}
+
+.discount {
+  width: 100px;
+  height: 19px;
+  text-align: left;
+  font: normal normal 400 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+}
+.add-to-cart {
+  width: 105px;
+  height: 32px;
+  background: #ff6738 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  border: none;
+}
+.add-to-cart:hover {
+  cursor: pointer;
+}
+.arrow-btn {
+  background: none;
+  border: none;
+  outline: none;
+}
+.arrow-btn:hover {
+  cursor: pointer;
+}

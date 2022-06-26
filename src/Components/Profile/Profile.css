@@ -1,0 +1,103 @@
+.profile-comp {
+  display: flex;
+  margin-top: 25px;
+  text-align: left;
+}
+.photo-comp {
+  flex: 1;
+  width: 260px;
+  height: 209px;
+  /* UI Properties */
+  background: transparent url("../../../public/images/Mask\ Group\ 2.png") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}
+.profile-details {
+  flex: 4 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  padding: 20px;
+}
+.name-comp {
+  display: flex;
+}
+
+.name-comp,
+.about-yourselt-comp,
+.area-of-interest-comp,
+.radio-input-comp,
+.experience-comp {
+  margin-bottom: 15px;
+}
+.display-name,
+.first-name,
+.last-name,
+.role {
+  width: 300px;
+  height: 40px;
+  background: #f7f8ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  margin-right: 15px;
+}
+
+.name-label,
+textarea {
+  display: block !important;
+  text-align: left;
+}
+
+label {
+  text-align: left;
+  font: normal normal 500 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #454545;
+  opacity: 1;
+  margin-bottom: 10px;
+  margin-right: 15px !important;
+}
+
+textarea {
+  width: 739px;
+  height: 163px;
+  background: #f6f8ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  outline: none;
+}
+input {
+  margin-right: 15px !important;
+  outline: none;
+}
+.radio-label {
+  margin-right: 50px !important;
+  width: 170px;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #a0abd9;
+  border-radius: 50%;
+  outline: none;
+}
+input[type="radio"]:before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin: 20% auto;
+  border-radius: 50%;
+}
+input[type="radio"]:checked:before {
+  background: #ff6738;
+}
+input[type="radio"]:checked {
+  border: 1px solid #ff6738;
+}
+.experience-comp {
+  border: 1px solid #e0e0e0;
+  opacity: 1;
+  padding: 20px;
+}

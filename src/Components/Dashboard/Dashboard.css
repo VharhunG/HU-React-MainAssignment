@@ -1,0 +1,13 @@
+.banner {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  position: relative;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
